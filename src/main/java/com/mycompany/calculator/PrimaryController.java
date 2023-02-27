@@ -67,7 +67,7 @@ public class PrimaryController {
             answer = value1 + value2;
             answerField.setText(Double.toString(answer));
         }
-        else if(calcField2.getText().equalsIgnoreCase("*") == true){
+        else if(calcField2.getText().equalsIgnoreCase("x") == true){
             answer = value1 * value2;
             answerField.setText(Double.toString(answer));
         }
